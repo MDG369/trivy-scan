@@ -18,3 +18,5 @@ jobs:
         with:
           image-ref: my-docker-image
           format: table
+          exit-code: 1
+          severity: CRITICAL
